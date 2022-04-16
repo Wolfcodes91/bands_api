@@ -4,7 +4,6 @@ class BandsController < ApplicationController
   # GET /bands
   def index
     @bands = Band.all
-
     render json: @bands
   end
 
